@@ -11,6 +11,7 @@ public class signup_testcase {
 	static void base() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		System.out.println("this is aafter added line");
 		driver.get("https://automationexercise.com/");
 	}
 
